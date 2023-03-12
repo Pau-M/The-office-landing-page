@@ -1,0 +1,180 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/039/original/papers_2.jpg?1678559632");
+  background-repeat: repeat;
+  background-color: black;
+  font-family: monospace;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  display: block;
+  margin: 10px auto;
+  font-size: 18px;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  background-color: #212121;
+  color: #fafafa;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 0.85;
+}
+#quoteBtn {
+  font-size: 12px;
+}
+.main {
+  width: 800px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  display: block;
+  margin: 50px auto;
+  width: "300px";
+  transition: all 300ms ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.1) rotate(1deg);
+}
+section {
+  margin: 40px 0;
+}
+h2 {
+  font-size: 32px;
+  margin: 65px 0px 40px 0px;
+}
+h3 {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+h4 {
+  font-size: 16px;
+}
+.about p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+.team-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 60px;
+}
+.team-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.character_wrap {
+  margin: 20px;
+}
+.character {
+  border-radius: 50%;
+  width: 200px;
+  transition: all 200ms ease-in-out;
+}
+.character:hover {
+  transform: scale(1.1);
+}
+.image {
+  width: 100%;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+}
+.image:hover {
+  transform: scale(1.5);
+}
+.position {
+  margin-top: 0px;
+}
+.gallery {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.out {
+  margin-bottom: 0px;
+}
+.link {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  text-align: center;
+}
+#up-button {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.dark {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/040/original/papers_2_dark.jpg?1678559652);
+  color: #fafafa;
+}
+.dark .main {
+  background-color: #212121;
+}
+.dark button {
+  background: #fafafa;
+  color: #212121;
+}
+.dark a {
+  color: #fafafa;
+}
+@media (max-width: 576px) {
+  .main {
+    width: 350px;
+    margin: 20px auto;
+    padding: 30px;
+  }
+  .logo {
+    width: "200px";
+  }
+  section {
+    margin: 20px 0;
+  }
+  h2 {
+    font-size: 24px;
+    margin: 30px 0px 20px 0px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .about p {
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .team-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .team-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .character {
+    width: 150px;
+  }
+  iframe {
+    width: 300px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+}
