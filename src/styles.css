@@ -43,6 +43,9 @@ button:hover {
 section {
   margin: 40px 0;
 }
+.title {
+  display: none;
+}
 h2 {
   font-size: 32px;
   margin: 65px 0px 40px 0px;
